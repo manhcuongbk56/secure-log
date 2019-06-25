@@ -1,0 +1,51 @@
+Không khó quá, cũng không dễ quá.
+
+
+Đây nhé:
+Giả  sử là anh có một chương trình Elixir, dùng Phoenix, đang chạy. 
+Tại mỗi chỗ quan trọng, anh muốn log thông tin ra xem mình đang dùng biến nào, tính toán các giá trị nào, đại khái thế.
+
+
+Nhưng một biến, ví dụ một instance của module Patient, có thể có thông tin cần bảo mật, ví dụ như tên, tuổi, ngày sinh.
+
+
+Vì thế anh muốn có một chức năng khi anh gọi một lệnh log, nó sẽ gửi thông tin đến hai server khác nhau, một server sẽ ghi thông tin có masking , ví dụ %Patient{ name : "**" }, còn một  server ghi thẳng thông tin ra, ví dụ %Patient{ name: "John"}
+
+
+
+
+làm thế nào để khi anh thay đổi kiểu log, ví dụ thay vì gửi data đến log-storage server bằng https call hay gửi data đến database server để log vào database thì phải tiện. Hoặc là khi anh muốn thêm cách log, ví dụ như log ra file system trên hai server khác nhau, một masking, một không , thì nó cũng dễ thêm kiểu log, đồng thời các kiểu log cũ vẫn phải hoạt động.
+
+
+implement cái hệ thớng logger đấy. Muốn làm thế nào tuỳ chú 
+
+
+Hố...hố... đại khái là anh làm application cần bảo mật thông tin, nên server trong private net mà mình có extra security thì mình log plain text, còn không thì server chạy trên cloud mình chỉ log masked text thôi
+chú muốn viết thành gì cũng được. Đơn giản nhất thì cứ gom hết các thành phần của nó vào trong một thư mục con của cái app của mình đã
+
+
+
+Tạo ra một cái Phoenix application, rồi dùng lệnh dưới này để generate cái scaffold cho user:
+
+ mix phx.gen.html Users User users first_name:string last_name:string birthdate:date
+
+
+
+
+Rồi trong context "Users" viết lệnh gọi Logger (hoặc là của Elixir, hoặc là của chú viết), để nó viết ra hai cái log ở hai chỗ khác nhau, một cái có mask thông tin, một cái không mask:
+
+   def list_users do
+     Logger.error("Call list_users:")
+     users = Repo.all(User)
+     Logger.error(inspect(users))
+     users
+  end
+
+
+Tất nhiên cái code trong list_user kia chỉ là ví dụ thôi, còn viết thế nào là tuỳ chú
+
+
+vẫn phải có đủ info, warn, debug, error ...etc...
+
+
+Ừ, rất nhiều thằng sẽ cần, vì nhiều thằng làm server application có dính đến thông tin bảo mật
