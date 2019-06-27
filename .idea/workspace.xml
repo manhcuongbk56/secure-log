@@ -1,7 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe96dd05-d009-4023-bec6-980dc4d8eb3b" name="Default Changelist" comment="" />
+    <list default="true" id="fe96dd05-d009-4023-bec6-980dc4d8eb3b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.formatter.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/benchee.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/benchee_json.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/connection.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/cowboy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/cowlib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/db_connection.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/decimal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/dialyze.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/earmark.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ecto.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ecto_sql.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ex_doc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/file_system.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gettext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/hackney.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/inch_ex.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jason.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/kadabra.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/phoenix.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/phoenix_ecto.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/phoenix_html.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/phoenix_live_reload.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/phoenix_pubsub.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/plug.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/plug_cowboy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/plug_crypto.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/postgrex.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ranch.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/telemetry.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/websocket_client.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/phoenix.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/socket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/static/images/phoenix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/static/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/dev.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/prod.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/test.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/secure_log.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/secure_log/application.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/secure_log/repo.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/secure_log/users.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/secure_log/users/user.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/secure_log_web.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/secure_log_web/channels/user_socket.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/secure_log_web/controllers/page_controller.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/secure_log_web/controllers/user_controller.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/secure_log_web/endpoint.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/secure_log_web/gettext.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/secure_log_web/router.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/secure_log_web/templates/layout/app.html.eex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/secure_log_web/templates/page/index.html.eex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/secure_log_web/templates/user/edit.html.eex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/secure_log_web/templates/user/form.html.eex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/secure_log_web/templates/user/index.html.eex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/secure_log_web/templates/user/new.html.eex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/secure_log_web/templates/user/show.html.eex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/secure_log_web/views/error_helpers.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/secure_log_web/views/error_view.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/secure_log_web/views/layout_view.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/secure_log_web/views/page_view.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/secure_log_web/views/user_view.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mix.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mix.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/priv/gettext/en/LC_MESSAGES/errors.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/priv/gettext/errors.pot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/priv/repo/migrations/.formatter.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/priv/repo/migrations/20190625160322_create_users.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/priv/repo/seeds.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/secure_log.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/secure_log/users_test.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/secure_log_web/controllers/page_controller_test.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/secure_log_web/controllers/user_controller_test.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/secure_log_web/views/error_view_test.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/secure_log_web/views/layout_view_test.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/secure_log_web/views/page_view_test.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/support/channel_case.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/support/conn_case.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/support/data_case.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_helper.exs" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/_build/dev/lib/connection/" />
     <ignored path="$PROJECT_DIR$/_build/dev/lib/cowboy/" />
@@ -89,11 +184,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/secure_log_web/router.ex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="324">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -107,11 +202,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/secure_log_web/templates/user/index.html.eex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="348">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -128,12 +223,15 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/config/dev.exs" />
-        <option value="$PROJECT_DIR$/lib/secure_log_web/router.ex" />
         <option value="$PROJECT_DIR$/lib/secure_log_web/templates/user/index.html.eex" />
+        <option value="$PROJECT_DIR$/lib/secure_log_web/router.ex" />
       </list>
     </option>
   </component>
@@ -143,6 +241,7 @@
     <option name="width" value="1280" />
     <option name="height" value="1055" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -161,6 +260,18 @@
               <item name="secure_log" type="b2602c69:ProjectViewProjectNode" />
               <item name="secure_log" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="secure_log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="secure_log" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="secure_log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="secure_log" type="b2602c69:ProjectViewProjectNode" />
+              <item name="secure_log" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="secure_log_web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="secure_log" type="b2602c69:ProjectViewProjectNode" />
@@ -192,6 +303,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Elixir/test_logger" />
@@ -221,18 +333,17 @@
       <option name="presentableId" value="Default" />
       <updated>1561478444355</updated>
       <workItem from="1561478447783" duration="266000" />
-      <workItem from="1561651548889" duration="1855000" />
+      <workItem from="1561651548889" duration="2099000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2121000" />
+    <option name="totallyTimeSpent" value="2365000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1080" y="310" width="1280" height="1055" extended-state="4" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24230146" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24230146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -249,7 +360,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32919955" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3299435" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -355,17 +466,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/secure_log_web/router.ex">
+    <entry file="file://$PROJECT_DIR$/lib/secure_log_web/templates/user/index.html.eex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="348">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/secure_log_web/templates/user/index.html.eex">
+    <entry file="file://$PROJECT_DIR$/lib/secure_log_web/router.ex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="324">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
