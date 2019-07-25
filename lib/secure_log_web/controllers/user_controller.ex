@@ -1,11 +1,13 @@
 defmodule SecureLogWeb.UserController do
   use SecureLogWeb, :controller
-
+  require Logger
   alias SecureLog.Users
   alias SecureLog.Users.User
 
   def index(conn, _params) do
     users = Users.list_users()
+    Logger.info("First User: #{inspect(List.first(users))}}")
+    Logger.error("Call list_users: {{users}}", [vars: %{users: users}])
     render(conn, "index.html", users: users)
   end
 

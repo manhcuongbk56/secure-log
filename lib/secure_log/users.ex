@@ -7,7 +7,7 @@ defmodule SecureLog.Users do
   alias SecureLog.Repo
 
   alias SecureLog.Users.User
-
+  require Logger
   @doc """
   Returns the list of users.
 
@@ -18,7 +18,9 @@ defmodule SecureLog.Users do
 
   """
   def list_users do
-    Repo.all(User)
+    users = Repo.all(User)
+    Logger.error("Call list_users: {{users}}", [vars: %{users: users}])
+    users
   end
 
   @doc """

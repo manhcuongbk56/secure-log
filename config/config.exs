@@ -18,7 +18,8 @@ config :secure_log, SecureLogWeb.Endpoint,
   pubsub: [name: SecureLog.PubSub, adapter: Phoenix.PubSub.PG2]
 
 # Configures Elixir's Logger
-config :logger, :console,
+config :logger,
+  backends: [{ProxyLogger, :proxy}],
   format: "$time $metadata[$level] $message\n",
   metadata: [:request_id]
 
